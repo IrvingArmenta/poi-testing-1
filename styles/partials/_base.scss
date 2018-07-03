@@ -1,0 +1,34 @@
+$blue: skyblue;
+html {
+  box-sizing: border-box;
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+}
+
+
+
+body {
+  background-color: $blue;
+}
+
+nav {
+  border-bottom: 1px solid #000;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  a {
+    padding: 8px;
+  }
+  .active {
+    background-color: yellow;
+    color: green;
+  }
+}

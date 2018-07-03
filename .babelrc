@@ -1,0 +1,7 @@
+{
+  "presets": ["poi"],
+  "plugins": [
+          "react-hot-loader/babel",
+          "transform-react-pug"
+        ]
+}

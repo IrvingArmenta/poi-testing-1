@@ -1,0 +1,41 @@
+{
+  "name": "poi-bundler-test",
+  "version": "1.0.0",
+  "description": "Testing poi bundler for modern app development (react) - alternative to Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/poi build",
+    "dev": "node_modules/.bin/poi",
+    "lint": "node_modules/.bin/eslint ./components --ext .js,.jsx",
+    "lint:fix": "node_modules/.bin/eslint ./components --ext .js,.jsx --fix",
+    "lint:watch":"onchange 'components/*' -- npm run lint:fix"
+  },
+  "keywords": [
+    "poi"
+  ],
+  "author": "irving armenta",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-pug": "^6.0.0",
+    "babel-preset-env": "^1.7.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0",
+    "expect": "^1.20.2",
+    "expect-enzyme": "^1.3.0",
+    "node-sass": "^4.9.0",
+    "onchange": "^4.0.0",
+    "poi": "^10.2.9",
+    "react-hot-loader": "^4.3.3",
+    "react-test-renderer": "^16.4.1",
+    "sass-loader": "^7.0.3"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1"
+  }
+}

@@ -1,0 +1,1 @@
+html{box-sizing:border-box}html *,html :after,html :before{box-sizing:inherit}body{background-color:skyblue}nav{border-bottom:1px solid #000}nav ul{list-style:none}nav ul li{display:inline-block;vertical-align:middle}nav a{padding:8px}nav .active{background-color:#ff0;color:green}
